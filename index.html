@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Game Boy by Martin Gauer</title>
+  <title>CSS Game Boy by Martin Gauer & Mark Valentino</title>
 
   <link rel="stylesheet" href="gameboy.css">
 </head>
@@ -45,8 +45,7 @@
           <span>BATTERY</span>
         </div>
 
-        <div class="screen">
-
+        <div class="screen" id="screen">
 
 
         </div>
@@ -156,11 +155,14 @@
 
     function togglePower() {
       let gameboy = document.getElementById("gameboy");
+      let screen = document.getElementById("screen");
       if (!poweredOn) {
         gameboy.classList.add("power-on");
+        screen.classList.add("nintendo-logo");
         poweredOn = true;
       } else {
         gameboy.classList.remove("power-on");
+        screen.classList.remove("nintendo-logo");
         poweredOn = false;
       }
     }
