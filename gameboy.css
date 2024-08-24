@@ -4,7 +4,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.gameboy {
+#gameboy {
   position: relative;
   height: 1080px;
   width: 660px;
@@ -15,7 +15,7 @@ body {
   margin: 50px auto;
   flex-shrink: 0;
 }
-.gameboy * {
+#gameboy * {
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
@@ -937,7 +937,7 @@ body {
 .phones .vertical-stripe:nth-child(3) {
   right: 40px;
 }
-.power-button {
+#power-button {
   position: absolute;
   top: -30px;
   left: 68px;
@@ -946,10 +946,10 @@ body {
   cursor: pointer;
   transition: left 0.25s ease-in;
 }
-.power-on .power-button {
+.power-on #power-button {
   left: 100px;
 }
-.power-button div {
+#power-button div {
   margin: 22px auto 0;
   height: 8px;
   width: 18px;
