@@ -152,11 +152,21 @@
     </div>
   </div>
   <script>
-    document.getElementById("power-button").addEventListener("click", function() {
+    let poweredOn = false;
+
+    function togglePower() {
       let gameboy = document.getElementById("gameboy");
-      gameboy.classList.add("power-on");
-    });
-      </script>
+      if (!poweredOn) {
+        gameboy.classList.add("power-on");
+        poweredOn = true;
+      } else {
+        gameboy.classList.remove("power-on");
+        poweredOn = false;
+      }
+    }
+
+    document.getElementById("power-button").addEventListener("click", () => togglePower());
+  </script>
 </body>
 
 </html>

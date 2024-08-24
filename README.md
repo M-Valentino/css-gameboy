@@ -1,12 +1,5 @@
-# CSS Game Boy by Martin Gauer
+# CSS Game Boy
+The original code was made by [Martin Gauer](https://github.com/attackemartin/css-gameboy) which was 100% pure HTML and CSS. I added JavaScript so that the power button can be toggled on and off.
 
 ### Made out of HTML and CSS
-This Game Boy is made out of 100% HTML and CSS and is part of the personal website of Martin Gauer and should work in all modern Browsers.
-[martingauer.com](https://martingauer.com)
-[@attackemartin](https://twitter.com/attackemartin)
-
-### Power On Class
-Add class "power-on" to the .gameboy div, to move the power button and light up the battery light.
-
-### Example
-[martingauer.com/css-gameboy](https://martingauer.com/css-gameboy)
+The visuals of the Game Boy are made out of HTML and CSS. There are no `<img>` elements.
