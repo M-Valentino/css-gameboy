@@ -163,7 +163,8 @@
       } else {
         gameboy.classList.remove("power-on");
         screen.classList.remove("nintendo-logo");
-        poweredOn = false;
+        // Allows the Nintendo logo (gif) on the screen to be played again.
+        location.reload(); 
       }
     }
 
