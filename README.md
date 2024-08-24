@@ -6,4 +6,7 @@ The visuals of the Game Boy are made out of HTML and CSS. There are no `<img>` e
 
 ## Demo
 https://codepen.io/m-valentino/pen/KKjRJMm
-Codepen disables reloading the window, so turning the gameboy on and off again won't work (this is needed in order to reset the Nintendo logo gif that loops only once). Clone the repo for the best expirience. 
+Codepen disables reloading the window, so turning the gameboy on and off again won't work (this is needed in order to reset the Nintendo logo gif that loops only once). Clone the repo for the best expirience.
+
+## Screenshot
+<img src="https://i.imgur.com/WOC2z2B.png" alt="screenshot of the Game Boy"/>
